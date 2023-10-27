@@ -7,10 +7,10 @@ rootRouter.get('/', (req, res) => {
   res.send('Hello from the backend')
 })
 
+rootRouter.get("/magical-creatures", (req, res) => {
+  res.send("This is a list of magical creatures: dragon, unicorn, phoenix")
+})
 
-// rootRouter.get('/home', (req, res) => {
-//   res.render('home')
-// })
 
 
 // rootRouter.get('/podcasts', (req, res) => {
