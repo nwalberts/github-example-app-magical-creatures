@@ -3,7 +3,7 @@ import express from "express"
 const rootRouter = new express.Router()
 
 rootRouter.get('/', (req, res) => {
-  res.send('Hello from the backend')
+  res.send('yoyoyoyo from the backend')
 })
 
 rootRouter.get("/magical-creatures", (req, res) => {
