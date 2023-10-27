@@ -13,7 +13,6 @@ rootRouter.get("/magical-creatures", (req, res) => {
 
 
 
-
 // rootRouter.get('/podcasts', (req, res) => {
 //   let podcasts = [
 //     'The Daily',
