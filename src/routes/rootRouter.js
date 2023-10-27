@@ -4,7 +4,7 @@ const rootRouter = new express.Router()
 
 // if (req.verb === GET && req.path === "/")
 rootRouter.get('/', (req, res) => {
-  res.send('Hello from the backend')
+  res.send('Hola from the backend')
 })
 
 rootRouter.get("/magical-creatures", (req, res) => {
